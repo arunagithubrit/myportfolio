@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Crimson+Text:ital@1&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+:root{
+    --red:#EF233C;
+    --white: white;
+    
+}
+
+body{
+margin: 0;
+height: 100vh;
+background-color: black;
+
+color: var(--white);
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Caprasimo', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+
+}
+.btn-cstm{
+    background-color: var(--red);
+}
+
+.nav-item a{
+    color: white;
+}
+
+.text-danger{
+    color: var(--red);
+}
+
+
+.nav-item a:hover{
+    color:var(--red);
+}
+
+
+.h-5{
+    min-height: 450px;
+}
+
+.profile{
+    width: 50%;
+    margin: 20px;
+    filter: drop-shadow(10px 10px 70px white);
+}
+
+
+.card img{
+    height: 300px;
+} 
+
+
+.title{
+    color: var(--red);
+    text-align: center;
+}
+
+.icons i{
+    margin-left:10px;
+    color:var(--red);
+}
+    
+    
+    
+
+
